@@ -50,5 +50,27 @@ namespace MusicApp
             String imageUrl = dataGridView.Rows[row].Cells[4].Value.ToString();
             pictureBox1.Load(imageUrl);
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            //nothing
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+            Album album = new Album
+            {
+                AlbumName=txt_albumName.Text,
+                ArtistName=txt_artist.Text,
+                Year=Int32.Parse(txt_year.Text),
+                imageURL=txt_imageurl.Text,
+                Description=txt_description.Text
+            };
+            AlbumsDAO albumsDAO = new AlbumsDAO();
+
+            int rows=albumsDAO.addAlbum(album);
+            MessageBox.Show(rows+"new row(s) added");
+        }
     }
 }

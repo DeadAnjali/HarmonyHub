@@ -66,5 +66,25 @@ namespace MusicApp
             connection.Close();
             return returnThese;
         }
+        public int addAlbum(Album album)
+        {
+            MySqlConnection connection = new MySqlConnection(connectionstring);
+            connection.Open();
+
+            //sequel statements
+            MySqlCommand cmd = new MySqlCommand();
+            cmd.CommandText = "INSERT INTO `album`(`ALBUM_TITLE`, `ARTIST`, `YEAR`, `IMAGE_NAME`, `DESCRIPTION`) VALUES (@albumname,@artist,@year,@imgurl,@desc)";
+            cmd.Parameters.AddWithValue("@albumname", album.AlbumName);
+            cmd.Parameters.AddWithValue("@artist", album.ArtistName);
+            cmd.Parameters.AddWithValue("@year", album.Year);
+            cmd.Parameters.AddWithValue("@imgurl", album.imageURL);
+            cmd.Parameters.AddWithValue("@desc", album.Description);
+
+            cmd.Connection = connection;
+            int n = cmd.ExecuteNonQuery();
+            //(@albumname,@artist,@year,@imgurl,@desc
+            connection.Close();
+            return n;
+        }
     }
 }

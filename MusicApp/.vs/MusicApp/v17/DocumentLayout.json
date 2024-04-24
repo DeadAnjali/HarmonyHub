@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\HarmonyHub\\HarmonyHub\\MusicApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9558FD0C-C3E1-46FC-9D57-89B8A0BC495B}|MusicApp.csproj|e:\\harmonyhub\\harmonyhub\\musicapp\\albumsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9558FD0C-C3E1-46FC-9D57-89B8A0BC495B}|MusicApp.csproj|solutionrelative:albumsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9558FD0C-C3E1-46FC-9D57-89B8A0BC495B}|MusicApp.csproj|e:\\harmonyhub\\harmonyhub\\musicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9558FD0C-C3E1-46FC-9D57-89B8A0BC495B}|MusicApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9558FD0C-C3E1-46FC-9D57-89B8A0BC495B}|MusicApp.csproj|e:\\harmonyhub\\harmonyhub\\musicapp\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9558FD0C-C3E1-46FC-9D57-89B8A0BC495B}|MusicApp.csproj|solutionrelative:album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9558FD0C-C3E1-46FC-9D57-89B8A0BC495B}|MusicApp.csproj|e:\\harmonyhub\\harmonyhub\\musicapp\\albumsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9558FD0C-C3E1-46FC-9D57-89B8A0BC495B}|MusicApp.csproj|solutionrelative:albumsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Album.cs",
               "DocumentMoniker": "E:\\HarmonyHub\\HarmonyHub\\MusicApp\\Album.cs",
               "RelativeDocumentMoniker": "Album.cs",
@@ -48,20 +48,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "E:\\HarmonyHub\\HarmonyHub\\MusicApp\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "E:\\HarmonyHub\\HarmonyHub\\MusicApp\\Form1.cs*",
               "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AQIAACQAAAAAAAAAAAAowDIAAAAnAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAqwEcAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T22:02:51.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "E:\\HarmonyHub\\HarmonyHub\\MusicApp\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -73,13 +73,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AlbumsDAO.cs",
               "DocumentMoniker": "E:\\HarmonyHub\\HarmonyHub\\MusicApp\\AlbumsDAO.cs",
               "RelativeDocumentMoniker": "AlbumsDAO.cs",
-              "ToolTip": "E:\\HarmonyHub\\HarmonyHub\\MusicApp\\AlbumsDAO.cs",
-              "RelativeToolTip": "AlbumsDAO.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAuwC8AAAA0AAAA",
+              "ToolTip": "E:\\HarmonyHub\\HarmonyHub\\MusicApp\\AlbumsDAO.cs*",
+              "RelativeToolTip": "AlbumsDAO.cs*",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAuwFMAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T20:28:59.229Z",
               "EditorCaption": ""
