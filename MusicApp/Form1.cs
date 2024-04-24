@@ -22,17 +22,8 @@ namespace MusicApp
         {
             //onclicking load button
             AlbumsDAO albumsDAO = new AlbumsDAO();
-            Album album = new Album
-            {
-                ID = 0,
-                AlbumName="Hello",
-                ArtistName="Anjali",
-                Year=2004,
-                imageURL="figureout.html",
-                Description="Hi I am Anjali and I am fine af",
-            };
-            albumsDAO.albums.Add(album);
-            albumbindingSource.DataSource = albumsDAO.albums;
+           
+            albumbindingSource.DataSource = albumsDAO.getAllAlbums();
             dataGridView1.DataSource = albumbindingSource;
 
         }
