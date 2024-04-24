@@ -37,5 +37,18 @@ namespace MusicApp
             dataGridView1.DataSource = albumbindingSource;
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            //nothing happens
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridView dataGridView=(DataGridView)sender;
+            int row = dataGridView.CurrentRow.Index;
+            String imageUrl = dataGridView.Rows[row].Cells[4].Value.ToString();
+            pictureBox1.Load(imageUrl);
+        }
     }
 }
