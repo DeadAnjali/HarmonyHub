@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -54,22 +54,9 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "E:\\HarmonyHub\\HarmonyHub\\MusicApp\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAIwA8AAAAWAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAuwCMAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T20:30:25.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AlbumsDAO.cs",
-              "DocumentMoniker": "E:\\HarmonyHub\\HarmonyHub\\MusicApp\\AlbumsDAO.cs",
-              "RelativeDocumentMoniker": "AlbumsDAO.cs",
-              "ToolTip": "E:\\HarmonyHub\\HarmonyHub\\MusicApp\\AlbumsDAO.cs",
-              "RelativeToolTip": "AlbumsDAO.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAYwB4AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T20:28:59.229Z",
+              "WhenOpened": "2024-04-24T22:02:51.577Z",
               "EditorCaption": ""
             },
             {
@@ -81,8 +68,21 @@
               "ToolTip": "E:\\HarmonyHub\\HarmonyHub\\MusicApp\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T20:10:19.034Z",
+              "WhenOpened": "2024-04-24T22:01:38.683Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlbumsDAO.cs",
+              "DocumentMoniker": "E:\\HarmonyHub\\HarmonyHub\\MusicApp\\AlbumsDAO.cs",
+              "RelativeDocumentMoniker": "AlbumsDAO.cs",
+              "ToolTip": "E:\\HarmonyHub\\HarmonyHub\\MusicApp\\AlbumsDAO.cs",
+              "RelativeToolTip": "AlbumsDAO.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAuwC8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T20:28:59.229Z",
+              "EditorCaption": ""
             }
           ]
         }

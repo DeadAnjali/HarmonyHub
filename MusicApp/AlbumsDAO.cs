@@ -36,5 +36,35 @@ namespace MusicApp
             connection.Close();
             return returnThese;
         }
+        public List<Album> searchTitle(String text)
+        {
+            List<Album> returnThese = new List<Album>();
+            MySqlConnection connection = new MySqlConnection(connectionstring);
+            connection.Open();
+            string phrase="%"+text+"%";
+            //sequel statements
+            MySqlCommand cmd = new MySqlCommand();
+            cmd.CommandText = "SELECT * FROM ALBUM WHERE ALBUM_TITLE LIKE @search";
+            cmd.Parameters.AddWithValue("@search", phrase);
+            cmd.Connection = connection;
+            using (MySqlDataReader reader = cmd.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    Album a = new Album
+                    {
+                        ID = reader.GetInt32(0),
+                        AlbumName = reader.GetString(1),
+                        ArtistName = reader.GetString(2),
+                        Year = reader.GetInt32(3),
+                        imageURL = reader.GetString(4),
+                        Description = reader.GetString(5)
+                    };
+                    returnThese.Add(a);
+                }
+            }
+            connection.Close();
+            return returnThese;
+        }
     }
 }

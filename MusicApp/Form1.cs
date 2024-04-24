@@ -27,5 +27,15 @@ namespace MusicApp
             dataGridView1.DataSource = albumbindingSource;
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //onclicking load button
+            AlbumsDAO albumsDAO = new AlbumsDAO();
+
+            albumbindingSource.DataSource = albumsDAO.searchTitle(textBox1.Text);
+            dataGridView1.DataSource = albumbindingSource;
+
+        }
     }
 }
